@@ -1,9 +1,8 @@
-importScripts("/todoVuePWA/precache-manifest.cd6987e0a1e477e0cb9e6ac58b63e1a1.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/todoVuePWA/precache-manifest.b37bd521c2a0938cf587f138ec6ad2ce.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 if (workbox) {
     console.log(`Workbox is loaded`);
 
-    //workbox.precaching.precacheAndRoute(self.__precacheManifest);
     self.__precacheManifest = [].concat(self.__precacheManifest || []);
     workbox.precaching.suppressWarnings();
     workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
