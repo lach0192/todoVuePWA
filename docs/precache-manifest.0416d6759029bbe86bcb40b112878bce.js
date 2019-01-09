@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/todoVuePWA/robots.txt"
   },
   {
-    "revision": "f17357c50d225e54508d",
+    "revision": "f8e918b9ce8d70e8bd2e",
     "url": "/todoVuePWA/js/chunk-vendors.afdff4f4.js"
   },
   {
-    "revision": "ad3dad7952b85b4a1257",
-    "url": "/todoVuePWA/js/app.6a38593f.js"
+    "revision": "b0bf443d629ddc8227c2",
+    "url": "/todoVuePWA/js/app.ef9a7dc4.js"
   },
   {
     "revision": "7590947b9b875c0d457d",
     "url": "/todoVuePWA/js/about.7307d36b.js"
   },
   {
-    "revision": "2f3a471b7fbeaed6d5a833751324e968",
+    "revision": "a7c35a5d8478d5c55a1d2ef924dbba0f",
     "url": "/todoVuePWA/index.html"
   },
   {
@@ -28,11 +28,11 @@ self.__precacheManifest = [
     "url": "/todoVuePWA/firebase-messaging-sw.js"
   },
   {
-    "revision": "f17357c50d225e54508d",
-    "url": "/todoVuePWA/css/chunk-vendors.b667a81a.css"
+    "revision": "f8e918b9ce8d70e8bd2e",
+    "url": "/todoVuePWA/css/chunk-vendors.4be1cb8c.css"
   },
   {
-    "revision": "ad3dad7952b85b4a1257",
+    "revision": "b0bf443d629ddc8227c2",
     "url": "/todoVuePWA/css/app.9339cd82.css"
   },
   {
