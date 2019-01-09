@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/todoVuePWA/js/chunk-vendors.afdff4f4.js"
   },
   {
-    "revision": "7b50032a976645d60f3c",
-    "url": "/todoVuePWA/js/app.c2a4c96e.js"
+    "revision": "9be5dc7f13ae5874c224",
+    "url": "/todoVuePWA/js/app.cba43bcd.js"
   },
   {
     "revision": "7590947b9b875c0d457d",
     "url": "/todoVuePWA/js/about.7307d36b.js"
   },
   {
-    "revision": "6f81a91724adc9527585e7c4de343143",
+    "revision": "2c44ea0711f20caa5d4e0911527ee020",
     "url": "/todoVuePWA/index.html"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/todoVuePWA/css/chunk-vendors.b667a81a.css"
   },
   {
-    "revision": "7b50032a976645d60f3c",
+    "revision": "9be5dc7f13ae5874c224",
     "url": "/todoVuePWA/css/app.9339cd82.css"
   },
   {
