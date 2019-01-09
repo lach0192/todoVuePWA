@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/todoVuePWA/index.html"
   },
   {
-    "revision": "db4960bbea918c784c38a94a62806635",
+    "revision": "2fcc250ec3ab1f35527bf498a8f1f444",
     "url": "/todoVuePWA/firebase-messaging-sw.js"
   },
   {
