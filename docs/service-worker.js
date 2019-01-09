@@ -1,4 +1,4 @@
-importScripts("/todoVuePWA/precache-manifest.1e7248147b417c3be3b11b0112d6cc52.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/todoVuePWA/precache-manifest.60eb2b3d0e902fe4f1add2efb095aca3.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 if (workbox) {
     console.log(`Workbox is loaded`);
