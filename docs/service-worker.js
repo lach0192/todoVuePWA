@@ -1,4 +1,4 @@
-importScripts("/todoVuePWA/precache-manifest.2eed1793fdc203df7d035a0aa37bc6f2.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/todoVuePWA/precache-manifest.8be4cb4267d8fd126a632c07b403be10.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 if (workbox) {
     console.log(`Workbox is loaded`);
@@ -14,6 +14,13 @@ if (workbox) {
             self.skipWaiting();
         }
     });
+
+    importScripts('https://www.gstatic.com/firebasejs/4.8.1/firebase-app.js');
+    importScripts('https://www.gstatic.com/firebasejs/4.8.1/firebase-messaging.js');
+    firebase.initializeApp({
+        messagingSenderId: "424022523433"
+    });
+    const messaging = firebase.messaging();
 
 } 
 else {

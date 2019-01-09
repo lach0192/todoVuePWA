@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "170821e7a72cf8c1c58e451e35c362a9",
+    "revision": "7fc8c8fe9785827b529e87992e190e2b",
     "url": "/todoVuePWA/service-worker.js"
   },
   {
