@@ -1,4 +1,4 @@
-importScripts("/todoVuePWA/precache-manifest.d29f6cadc75e16c45af67dc3c97d9662.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/todoVuePWA/precache-manifest.e0e57e7d0a502c57e5addd7560ba7de6.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 if (workbox) {
     console.log(`Workbox is loaded`);
@@ -26,3 +26,11 @@ firebase.initializeApp({
 });
 
 const messaging = firebase.messaging();
+
+self.addEventListener('push', (event) => {
+    const title = 'Get Started With Workbox';
+    const options = {
+      body: event.data.text()
+    };
+    event.waitUntil(self.registration.showNotification(title, options));
+  });
