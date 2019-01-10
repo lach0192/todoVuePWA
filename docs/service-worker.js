@@ -1,4 +1,4 @@
-importScripts("/todoVuePWA/precache-manifest.e0e57e7d0a502c57e5addd7560ba7de6.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
+importScripts("/todoVuePWA/precache-manifest.a17ffd2d391f6c013650ad3afb14c5bc.js", "https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 if (workbox) {
     console.log(`Workbox is loaded`);
@@ -27,10 +27,11 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
+// works with test push from chrome devtools
 self.addEventListener('push', (event) => {
-    const title = 'Get Started With Workbox';
+    const title = 'push event!';
     const options = {
-      body: event.data.text()
+        body: event.data.text()
     };
     event.waitUntil(self.registration.showNotification(title, options));
-  });
+});
